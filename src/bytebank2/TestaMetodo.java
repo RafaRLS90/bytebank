@@ -6,6 +6,10 @@ public class TestaMetodo {
 		contaRafael.saldo = 100;
 		contaRafael.depositar(50);
 		System.out.println(contaRafael.saldo);
+		
+		boolean conseguiuRetirar = contaRafael.sacar(20);
+		System.out.println(contaRafael.saldo);
+		System.out.println(conseguiuRetirar);
 	}
 	}
 	
